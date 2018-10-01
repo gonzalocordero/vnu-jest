@@ -2,10 +2,11 @@
   "name": "vnu-jest",
   "version": "0.1.0",
   "description": "A jest pluggin for HTML validation based on VNU",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "vnu-cli.js",
   "author": "Gonzalo Cordero",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^23.6.0",
+    "vnu-jar": "^18.8.29"
+  }
 }

@@ -1,11 +1,4 @@
-# vnu-jest
-
-Simple just plugin to run HTML validation tests. 
-
-## Usage
-
-````
-import {  validateHTML } from'vnu-jest';
+const {  validateHTML } = require('../vnu-cli')
 
 describe('vnu-cli', () => {
     it('should validate correct valid markup', async () => {
@@ -26,6 +19,3 @@ describe('vnu-cli', () => {
         }
     })
 });
-
-````
-
