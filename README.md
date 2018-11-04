@@ -1,6 +1,6 @@
 # vnu-jest
 
-Simple just plugin to run HTML validation tests. 
+Simple jest plugin to run HTML validation tests. 
 
 ## Usage
 
